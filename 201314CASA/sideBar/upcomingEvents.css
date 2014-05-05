@@ -1,0 +1,91 @@
+.sideBar {
+  position: absolute;
+  float: left;
+  top: 40px;
+  width: 30%;
+  padding: 0;
+  margin: 0 auto;
+  margin-left: 15px;
+  color: white;
+}
+	.event {
+	  margin: 0;
+	  height: 100%;
+	}
+	#tab {
+	  background: red;
+	  width: 180px;
+	  height: 40px;
+	  font-size: 35px;
+	  margin-left: 10px;
+	  padding: 5px;
+	}
+		.wrapper {
+		  //border: 1px solid red;
+		  width: 256px;
+		  height: 100%;
+		}
+			.wrapper .descr {
+			  position: relative;
+		          border-bottom: 3px solid white;
+			  height: 100px;
+			  width: 256px;
+		  	  background: #4A0095;
+			  float: left;
+		  	  text-align: left;
+			}
+				#no4 {
+				  border: none; 
+				}
+
+			.descr p {
+			  position: absolute;
+		  	  margin: 0;
+			  padding: 0;
+		  	  color: white;
+	          	  font-family: 'Pontano Sans', sans-serif;
+		  	  font-size: 15px;
+			}
+			.descr .when{
+			  width: 30%;
+			  margin-top: 17px;
+			  margin-left: 5px;
+			  text-align: center;
+			  font-size: 30px;
+			  font-family: "Pontano Sans", sans-serif;
+			}
+			.descr .where {
+			  margin-left: 37%;
+			  margin-top: 19px;
+			}
+			.descr .RSVP {
+			  right: 0;
+			  text-align: center;
+			  height: 90px;
+			  padding: 5px 10px;
+			  font-size: 17px;
+			  font-weight: bold;
+			  font-family: "Amatic SC", "Pontano Sans", sans-serif;
+			  background: #D1E6FC;
+			}
+				.RSVP a {
+				  text-decoration: none;
+				  color: #4A0095;
+				}
+				.RSVP a:hover {
+				  color: red;
+				}
+			#more {
+			  background: red;
+			  font-size: 20px;
+			  height: 30px;
+			  width: 80px;
+			  padding: 5px;
+			  float: right;
+			  margin-right: 27px;
+			}
+				#more a {
+				  text-decoration: none;
+				  color: white;
+				}
+

@@ -1,0 +1,409 @@
+/*
+  File Name: index.css
+  Author:    Jingwen Xu (Winnie)
+  Purpose:   CSS3 formatting for homepage
+  Date:      Wednesday, July 10, 2013
+ */
+ 
+
+body,
+div {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', 'Pontano Sans', sans-serif;
+}
+
+body{
+  background-color: #E8E6E7;
+}
+
+.container{
+    //border: 1px solid red;
+    position: relative;
+    min-width: 1024px;
+    padding: 0;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    top: 0;
+    text-align: center;
+}
+
+	.title {
+  	  position: relative;
+  	  font-family: 'Amatic SC', 'Pontano Sans', sans-serif;
+  	  font-size: 100px;
+  	  width: 100%;
+  	  height: 175px;
+  	  color: #4A0095;
+	}
+	.content{
+	  //border: 1px solid blue;
+	  background-color: white;
+          position: relative;
+	  width: 1020px;
+  	  height: 100%;
+ 	  padding: 15px;
+	  padding-top: 25px;
+ 	  margin: 0 auto;
+ 	  text-align: center;
+	}
+		.intro{
+	  	  //border: 1px solid green;
+	  	  height: 200px;
+	  	  margin: 15px;
+		}
+			.outer{
+			  //background: pink;
+			  position: relative;
+			  float: left;
+			  width: 236px;
+			  height: 100%;
+			  text-align: center;
+			}
+			#margin{
+			  margin-right: 15px;
+			}
+			.inner{
+			  //background: green;
+			  position: absolute;
+			  width: 100px;
+			  height: 100px;
+			  left: 68px;
+			}
+				.inner img{
+				  margin: 0;
+				  padding: 0;
+				  width: 100px;
+				  height: 100px;
+				}
+			.outer h2{
+			  position: absolute;
+			  //background: blue;
+			  height: 40px;
+			  width: 100%;
+			  top: 80px;
+			  color: #4A0095;
+		          font-family: 'Pontano Sans', sans-serif;
+			}
+			.outer p{
+			  position: absolute;
+			  //background: yellow;
+			  width: 100%;
+			  height: 80px;
+			  top: 115px;
+			  color: #4A0095;
+		          font-family: 'Pontano Sans', sans-serif;
+			}
+		.media{
+	          //border: 1px solid yellow;
+                  position: relative;
+		  height: 500px;
+	  	  margin: 15px;
+		  overflow: hidden;
+		}
+			#slideshow{
+			  margin: 0;
+			  padding: 0;
+			}
+				.media img{
+				  width: 990px;
+				}
+			.buttons{
+			  position: absolute;
+			  width: 300px;
+			  height: 100%;
+			  top: 0;
+			  z-index: 10;
+			}
+				.buttons img{
+				  position: absolute;
+				  top: 45%;
+				  width: 50px;
+				  height: 50px;
+				  opacity: 0.7
+				}
+			#prev{ 
+			  left: 0;
+			  //border: 1px solid pink;
+			}
+				#prev img{
+				  left: 15px;
+				}
+			#next{ 
+			  right: 0;
+			  //border: 1px solid green;
+			}
+				#next img{
+				  right: 15px;
+				}
+	        .updates{
+		  //border: 1px solid red;
+		  position: relative;
+		  height: 500px;
+		  margin: 15px 0;
+		}
+			.updates div{
+			  height: 100%;
+			  float: left;
+			}
+			.left{
+			  //border: 1px solid red;
+			  width: 285px;
+			}
+			.middle{
+			  width: 448px;
+			  //background: pink;
+			}
+				.top{
+				  font-family: 'Pontano Sans', sans-serif;
+			          background: #D1E6FC;
+				  margin-bottom: 15px;
+				}
+					.topTitle{
+				          font-family: 'Pontano Sans', sans-serif;
+					  background: #4A0095;
+					  margin-bottom: 15px;
+					  height: 40px;
+					  padding-top: 10px;
+					  font-size: 25px;
+					  color: white;
+					}
+					.top p{
+					  text-align: left;
+				          margin: 0 15px;
+					  color: #4A0095;
+					}
+				.bottom{
+				  //background: yellow;
+				  width: 100%;
+				  overflow: hidden;
+				}
+				.bottom img{
+				  height: 235px;
+				  width: 448px;
+				}
+			.right{
+			  width: 250px;
+			}
+	
+.sideBar {
+  position: absolute;
+  float: left;
+  width: 30%;
+  padding: 0;
+  margin: 0 auto;
+  margin-left: 15px;
+  color: white;
+}
+	.event {
+	  margin: 0;
+	  height: 100%;
+	}
+	#tab {
+	  background: red;
+	  width: 180px;
+	  height: 40px;
+	  font-size: 35px;
+	  margin-left: 10px;
+	  padding: 5px;
+	}
+		.wrapper {
+		  //border: 1px solid red;
+		  width: 256px;
+		  height: 100%;
+		}
+			.wrapper .descr {
+			  position: relative;
+		          border-bottom: 3px solid white;
+			  height: 100px;
+			  width: 256px;
+		  	  background: #4A0095;
+			  float: left;
+		  	  text-align: left;
+			}
+				#no4 {
+				  border: none; 
+				}
+
+			.descr p {
+			  position: absolute;
+		  	  margin: 0;
+			  padding: 0;
+		  	  color: white;
+	          	  font-family: 'Pontano Sans', sans-serif;
+		  	  font-size: 15px;
+			}
+			.descr .when{
+			  width: 30%;
+			  margin-top: 17px;
+			  margin-left: 5px;
+			  text-align: center;
+			  font-size: 30px;
+			  font-family: "Pontano Sans", sans-serif;
+			}
+			.descr .where {
+			  margin-left: 37%;
+			  margin-top: 19px;
+			}
+			.descr .RSVP {
+			  right: 0;
+			  text-align: center;
+			  height: 90px;
+			  padding: 5px 10px;
+			  font-size: 17px;
+			  font-weight: bold;
+			  font-family: "Amatic SC", "Pontano Sans", sans-serif;
+			  background: #D1E6FC;
+			}
+				.RSVP a {
+				  text-decoration: none;
+				  color: #4A0095;
+				}
+				.RSVP a:hover {
+				  color: red;
+				}
+			#more {
+			  background: red;
+			  font-size: 20px;
+			  height: 30px;
+			  width: 80px;
+			  padding: 5px;
+			  float: right;
+			  margin-right: 27px;
+			}
+				#more a {
+				  text-decoration: none;
+				  color: white;
+				}
+	#RecentPosts{
+	  //border: 1px solid yellow;
+	  height: 600px; 
+	  color: white;
+	  padding-left: 15px;
+	  float: left;
+	}
+		#RecentPosts .descr{
+		  height: 148px;
+		}
+		#RecentPosts .RSVP{
+		  padding: 0;
+		  margin: 0;
+		  height: 25px;
+		  width: 25px;
+		}
+		#RecentPosts .what{
+		  color: white;
+		  font-size: 20px;
+		  margin: 15px;
+		}
+		#RecentPosts .blog{
+		  color: white;
+		  margin: 15px;
+		  margin-top: 45px;
+		  width: 140px;
+		  //border: 1px solid red;
+		}
+		#RecentPosts .picture{
+		  position: absolute;
+		  //border: 1px solid red;
+		  width: 80px;
+		  height: 89px;
+		  right: 0;
+		  margin: 15px;
+		  margin-top: 45px;
+		  text-align: center;
+		  overflow: hidden;
+		}
+			.picture img{
+			  height: 100px;
+			}
+
+
+ a img.logo{
+   position: fixed;
+   margin: -5px 0 0 10px;
+   float: left;
+   width: 60px;
+   height: 60px;
+   opacity: 0.85;
+   z-index: 9999;
+}
+	 img.logo:hover {
+	    opacity: 1;
+	}
+
+#nav {
+   position: relative;
+   width: 100%;
+   min-width: 1024px;
+   height: 40px;
+   z-index: 9998;
+}
+
+#menuBar {
+   position: fixed;
+   width: 100%;
+   height: 40px;
+   padding: 10px 0 5px 0;
+   background: #F8F2FC; /* light purple */
+   z-index: 9000;
+}
+
+#nav ul.menu {
+   position: relative;
+   list-style: none;
+   font-size: 14px;
+   font-family: 'Pontano Sans', sans-serif;
+   text-align: center;
+   color: #4A0095;
+   float: right;
+   padding: 10px;
+}
+
+#nav ul.menu li {
+   position: relative;
+   width: 90px;
+   list-style: none;
+   padding: 10px 10px 16px 10px;
+   margin-top: -21px;
+   float: left;
+}
+	#nav ul.menu li:hover {
+	   color:#AAAAAA;
+	}
+
+#nav ul.menu a {
+   text-decoration: none;
+   color: #4A0095;
+}
+	#nav ul.menu a:hover {
+	   color:#AAAAAA;
+	}
+
+#nav ul.menu li ul.subnav {
+   display: none;
+   position: absolute;
+   left: 10px;
+   top: 41px;
+   margin-left: -50px;
+}
+
+#nav ul.menu li ul.subnav li {
+   text-align: left;
+   float: none;
+   margin: 0px;
+   background-color: #D1E6FC;
+   opacity: 0.85;
+}
+	#nav ul.menu li ul.subnav li:hover {
+	   opacity: 1;
+	}
+
+#nav ul.menu li ul.subnav li a {
+   color: #4A0095;
+}
+
+	#nav ul.menu li ul.subnav li a:hover {
+	   color: #AAAAAA;
+	}
+

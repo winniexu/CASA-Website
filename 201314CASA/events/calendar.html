@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UCSD CASA Calendar</title>
+	<link href="calendar.css" rel="stylesheet" type="text/css"/>
+	<link rel="shortcut icon" href="../navImages/favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Pontano Sans">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Amatic SC">    	
+    </head>
+     
+    <body>
+    
+        <div id="nav">
+            <a href="http://sdcasa.ucsd.edu"><img src="../navImages/logoFancy.png"/ class="logo"></a>
+            <div id="menuBar">
+	        <ul class="menu">
+	            <li class="home">
+	                <a href="../news/news.html">News</a>
+	            </li>
+	            <li class="about"> About
+	                <ul class="subnav">
+	                    <li class="overview"><a href="../about/aboutCASA.html">CASA</a></li>
+	                    <li class="staffApp"><a href="../about/staffApp.html">Staff App</a></li>
+		            <li class="membership"><a href="../about/membership.html">Membership</a></li>
+		            <li class="faq"><a href="../about/FAQ.html">FAQ</a></li>
+	               </ul>
+	            </li>
+	            <li class="events"> Events
+	                <ul class="subnav">
+	                    <li class="trips"><a href="./trips.html">Trips & Outings</a></li>
+	                    <li class="auction"><a href="./valentines.html">Valentine's Date Auction</a></li>
+	                    <li class="show"><a href="./cultureShow.html">Culture Show</a></li>
+	                    <li class="calendar"><a href="./calendar.html">Calendar</a></li>
+	                </ul>
+	           </li>
+	          <li class="families"><a href="../families/familyApp.html">Families</a></li>
+	          <li class="gallery"><a href="../gallery/gallery.html">Gallery</a></li>
+	          <li class="sponsors"><a href="../sponsors/sponsors.html">Sponsors</a></li>
+	          <li class="contact"><a href="../contact/contact.html">Contact Us</a></li>
+	       </ul>
+           </div>
+        </div>
+
+        
+	<div id="container">
+
+	    <div id="upcomingEvents" style="position: fixed;"></div>
+	     <div class="content">
+	         <div class="title">Calendar</div>
+		 <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=casaucsd%40gmail.com&amp;color=%23A32929&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	     </div>
+
+	
+	</div> <!--closes container--> 
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script> 
+           $(function(){
+	     var path = document.location.pathname;
+	     var dir = path.substring(0, path.lastIndexOf('/'));
+	     var dir2 = path.substring(0, dir.lastIndexOf('/'));
+	     console.log(dir2);
+             $("#upcomingEvents").load(dir2 + "/sideBar/upcomingEvents.html"); 
+           });
+        </script>
+    	<script src="calendar.js" type="text/javascript"></script>
+	
+    </body>
+</html>
+
+
+
+
